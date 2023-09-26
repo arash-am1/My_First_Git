@@ -1,0 +1,246 @@
+body {
+    background-color: #FCFCFC !important;
+}
+
+@media screen and (max-width: 900px) {
+    .navbar {
+        background-color: #FFFFFF;
+        border-bottom: rgb(0, 0, 0, 0.09) solid 1px;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .navbar {
+        background-color: #FCFCFC !important;
+
+    }
+}
+
+.nav-link,
+a {
+    color: #4B5675 !important;
+    font-size: 1.1rem !important;
+    font-weight: 500 !important;
+}
+
+.nav-link:hover,
+a:hover {
+    color: #3E97FF !important;
+
+}
+
+.active1 {
+    color: #3E97FF !important;
+}
+
+.logo {
+    width: 50px !important;
+}
+
+/*  Icon's style for my website */
+.bi {
+    color: black !important;
+    font-size: 20px !important;
+
+}
+
+.bi:hover {
+    color: blue !important;
+}
+
+.bi-0-square {
+    src: "C:\Users\arash\Desktop\Images\Screenshot 2023-09-15 122131.ico" !important;
+}
+
+/* ----------------------- */
+
+/* single paragraph style */
+.p1 {
+    color: #99A1C6;
+    font-size: 14px;
+}
+
+/* ---------------- */
+
+
+/* Custom style for my buttons */
+.text-bg-primary1 {
+    background-color: #3E97FF !important;
+    color: #fff !important;
+}
+
+.text-bg-primary1:hover {
+    background-color: #0295E9 !important;
+    color: #fff !important;
+
+}
+
+.text-bg-secondary1 {
+    background-color: #F1F1F2 !important;
+    color: #4B5675 !important;
+}
+
+.text-bg-secondary1:hover {
+    background-color: #DBDFE9 !important;
+    color: #4B5675 !important;
+}
+
+.btn1 {
+    width: 100px !important;
+    font-size: 14px !important;
+}
+
+.myBtn {
+    padding: 10px 19px !important;
+    color: #3E97FF !important;
+    background-color: #F1FAFF;
+
+}
+
+.myBtn:hover {
+    background-color: #3E97FF;
+    color: #fff !important;
+
+
+}
+
+.myBtn1 {
+    padding: 10px 19px !important;
+    background-color: #3E97FF;
+    color: #F9FAFF;
+
+}
+
+.myBtn1:hover {
+    background-color: #0295E9 !important;
+    color: #F9FAFF;
+}
+
+.myBtn>i {
+    color: blue !important;
+    font-size: 17px !important;
+}
+
+.myBtn:hover>i {
+    color: #BBDCFF !important;
+}
+
+.myBtn1>i {
+    color: #fff !important;
+    font-size: 17px !important;
+}
+
+.myBtn1>i:hover {
+    color: #fff !important;
+
+}
+
+/* -------------------------- */
+
+/* Custom icon for my buttons */
+.biC {
+    font-size: 14px !important;
+    margin-right: 4px;
+    color: #D6D9E0 !important;
+}
+
+.btn1:hover>.biC {
+    font-size: 14px !important;
+    margin-right: 4px;
+    color: black !important;
+
+}
+
+/* --------------//------------ */
+
+/* users box */
+.myContainer {
+
+    background-color: #fff;
+    height: 90% !important;
+    border: 0.2px solid rgb(0, 0, 0, 0.1);
+
+
+
+}
+
+/* ------------------ */
+
+.search {
+    width: 250px !important;
+}
+
+
+/* role */
+
+.role {
+    margin-top: 25px;
+}
+
+/* Font of my header */
+.fHeader {
+    font-family: Inter, Helvetica, sans-serif !important;
+    font-size: 0.7125rem;
+    color: #99A1B7 !important;
+    font-weight: 600;
+}
+
+/* font of some data tables */
+.grayFont {
+    color: #928CA6 !important;
+    font-size: 0.80625rem;
+    font-family: Inter, Helvetica, sans-serif !important;
+}
+
+.grayFont1 {
+    font-size: 0.6375rem;
+    color: rgb(120, 130, 157) !important;
+    font-weight: 600;
+
+}
+
+.greenFont {
+    font-size: 0.80625rem !important;
+    background-color: #E8FFF3 !important;
+    color: #50D6CA !important;
+    border-radius: 20% !important;
+
+}
+
+h6 a {
+    text-decoration: none;
+    color: rgb(37, 47, 74) !important;
+    transition: 0.2s;
+
+}
+
+h6 a:hover {
+    color: #3E97FF !important;
+
+}
+
+
+.maBtn,
+.maBtn>i {
+    background-color: #F9F9F9 !important;
+    color: #78829D !important;
+
+}
+
+.maBtn:hover {
+    background-color: #F1FAFF !important;
+    color: #6697FF !important;
+}
+
+.maBtn:hover>i {
+    color: #6697FF !important;
+}
+
+/* End of the page */
+
+.eP{
+    color:rgb(120, 130, 157) !important ;
+    font-size: 12px !important;
+    text-decoration: none;
+
+}
