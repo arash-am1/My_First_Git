@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="vendor/bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
+
+
+    <!-- best sources for icons  -->
+    <link rel="stylesheet" href="icons/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="icons/boxicons-2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="icons/Bootstrapicons-1.11.0/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
+        <div class="container-fluid">
+            <div class="d-flex ms-lg-5 ms-md-4 ms-sm-3 ms-2">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <i class="bi bi-menu-button-wide"></i>
+                </button>
+                <a href="" target="_blank" class=""><img alt="Logo" src="img/Logo/default-small.svg" class="logo h-30"></a>
+
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div class="d-flex " style="width: 100%;">
+                    <div class="d-flex gap-3 order-1 me-lg-5 me-md-4 me-sm-3 me-2 ">
+                        <a class="" href=""><i class="bi bi-search"></i></a>
+                        <a class="" href=""><i class="bi bi-chat"></i></a>
+                        <a class="" href=""><i class="bi bi-chat-text"></i></a>
+                        <a class="" href=""><i class="bi bi-wifi-1"></i></a>
+                        <a class="" href=""><i class="bi bi-arrows-fullscreen"></i></a>
+                        <a href=""><i class="material-icons mt-1">date_range</i></a>
+                    </div>
+                    <ul class="navbar-nav me-auto order-0">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active1" href="#">Apps</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Link</a></li>
+                                <li><a class="dropdown-item" href="#">Another link</a></li>
+                                <li><a class="dropdown-item" href="#">A third link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-sm-4 mt-3 bg-sm-dark " style="margin-top: 80px !important;">
+        <div class="d-flex justify-content-between ms-3  ">
+            <div>
+                <h5>Projects</h5>
+                <p class="p1">Home-User Profile</p>
+            </div>
+            <div class="d-flex gap-3 align-items-center">
+                <a href="" class="btn text-bg-secondary1 btn1 ">
+                    <i class="bi bi-funnel-fill biC"></i>Filter</a>
+                <a href="" class="btn text-bg-primary1 btn1">Create</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="myContainer">
+            <div class="px-4 pt-4">
+                <div class="d-flex flex-column flex-md-row">
+                    <div class="flex-grow-0">
+                        <div class="position-relative d-inline-block myBox">
+
+                            <!-- MQ -->
+                            <img src="img/300-1.jpg" class="img-fluid rounded-3 imSize" class="" alt="">
+
+                            <div class="wPos">
+                                <div class=" rounded-circle wBox d-flex justify-content-center ">
+                                    <div class="rounded-circle gBox align-self-center"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-grow-1">
+                        <div class="d-flex flex-column flex-md-row justify-content-between align-items-start flex-wrap mb-2 ">
+                            <div>
+                                <a class="text-decoration-none Users-Font " href="" class="d-flex">
+                                    Max Smith <span class="material-icons text-primary " style="font-size: 17px">
+                                        verified
+                                    </span>
+                                </a>
+                                <div class="">
+                                    <div class="d-flex gap-3">
+                                        <a href="" class="grayFont text-decoration-none d-flex align-items-center gap-1  transision-s" style="font-size: 13.975px !important;">
+                                            <span class="material-icons" style="font-size: 13.975px  !important;">
+                                                account_circle
+                                            </span>Developer</a>
+                                        <a href="" class="grayFont text-decoration-none d-flex align-items-center gap-1 transision-s" style="font-size: 13.975px !important;">
+                                            <span class="material-icons" style="font-size: 13.975px  !important;">
+                                                place
+                                            </span>SF, Bay Area</a>
+                                        <a href="" class="grayFont text-decoration-none d-flex align-items-center gap-1 transision-s" style="font-size: 13.975px !important;">
+                                            <span class="material-icons" style="font-size: 13.975px  !important;">
+                                                email
+                                            </span>max@kt.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <button class="btn btn-light my-light-btn" style="font-size: 14px !important;">Follow</button>
+                                <button class="btn btn-primary my-blue-btn" style="font-size: 14px !important;">Hire me</button>
+                                <button class="btn btn-light my-light-btn" style="font-size: 14px !important;">...</button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="d-flex flex-column flex-lg-row justify-content-md-between">
+                                <div>
+                                    <div class="d-flex mt-3 flex-wrap ">
+                                        <div class="border rounded my-border-style width-128 px-3 me-3 mb-3">
+                                            <div class="d-flex mt-1">
+                                                <span class="material-icons green-icon">
+                                                    expand_less
+                                                </span>
+                                                <h5>&#36;4,500</h5>
+                                            </div>
+                                            <p class="grayFont ms-2 mb-1">Earnings</p>
+                                        </div>
+
+                                        <div class="border rounded my-border-style width-128 px-3 me-3 mb-3">
+                                            <div class="d-flex mt-1">
+                                                <span class="material-icons red-icon mt-1">
+                                                    expand_more
+                                                </span>
+                                                <h5>80</h5>
+                                            </div>
+                                            <p class="grayFont ms-2 mb-1">Projects</p>
+                                        </div>
+                                        <div class="border rounded my-border-style width-128 px-3 me-3 mb-3">
+                                            <div class="d-flex mt-1">
+                                                <span class="material-icons green-icon">
+                                                    expand_less
+                                                </span>
+                                                <h5>60&#37;</h5>
+                                            </div>
+                                            <p class="grayFont ms-2 mb-1">Success Rate</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-lg-4" style="width: 250px !important;">
+
+                                    <div class="d-flex justify-content-between ">
+                                        <p class="grayFont p-0 m-0">Profile Compleation</p>
+                                        <p class="percentage-bar p-0 m-0"></p>
+                                    </div>
+                                    <div class="progress progress-hw">
+                                        <div class="progress-bar green-bar"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <ul class="nav mt-4 ">
+                    <!--begin::Nav item-->
+                    <li class="nav-item  ms-3 ">
+                        <a class="nav-link myLink pb-3 px-2" href="/metronic8/demo1/../demo1/pages/user-profile/overview.html">
+                            Overview </a>
+                    </li>
+                    <li class="nav-item  ms-3 active">
+                        <a class="nav-link myLink pb-3 px-2 " href="/metronic8/demo1/../demo1/pages/user-profile/overview.html" style="color: #5D97FF !important; border-bottom: 2px solid #3E97FF;">
+                            Projects </a>
+                    </li>
+                    <li class="nav-item  ms-3 ">
+                        <a class="nav-link myLink pb-3 px-2" href="/metronic8/demo1/../demo1/pages/user-profile/overview.html">
+                            Campaingns </a>
+                    </li>
+                    <li class="nav-item  ms-3 ">
+                        <a class="nav-link myLink pb-3 px-2" href="/metronic8/demo1/../demo1/pages/user-profile/overview.html">
+                            Documents </a>
+                    </li>
+                    <li class="nav-item  ms-3 ">
+                        <a class="nav-link myLink pb-3 px-2" href="/metronic8/demo1/../demo1/pages/user-profile/overview.html">
+                            Followers </a>
+                    </li>
+                    <li class="nav-item ms-3  ">
+                        <a class="nav-link myLink pb-3 px-2" href="/metronic8/demo1/../demo1/pages/user-profile/overview.html">
+                            Activities </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="vendor/jquery-3.7.1.min.js"></script>
+    <script src="vendor/bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
+    <script src="Js/script.js"></script>
+
+
+
+</body>
+
+</html>

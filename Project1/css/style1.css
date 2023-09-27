@@ -1,0 +1,147 @@
+/* ----------------Users like max-smit fonts/colors---------------- */
+.transision-s {
+    transition: 0.3s !important;
+}
+
+
+.Users-Font {
+    font-size: 19.2px !important;
+    font-family: Helvetica, sans-serif !important;
+    font-weight: 600 !important;
+    text-decoration: inherit !important;
+    transition: 0.3s !important;
+
+}
+
+.User-Color {
+    color: #000 !important;
+}
+
+
+/* small shape near img  */
+.wBox {
+
+    width: 1.375rem;
+    height: 1.375rem;
+    background-color: #fff;
+
+
+}
+
+.gBox {
+    width: 0.875rem;
+    height: 0.875rem;
+    background-color: #50CD89;
+
+}
+
+/* small shape near img  */
+
+/* image size and shape position in deffrent screens  */
+@media (max-width: 1400px) {
+    .imSize {
+        width: 120px !important;
+    }
+
+    .myBox {
+        width: 130px;
+    }
+
+    /* -----------------white box position ------------------ */
+
+    .wPos {
+        position: absolute;
+        top: 4.0626rem;
+        right: 0rem;
+    }
+}
+
+@media (min-width: 1401px) {
+    .imSize {
+        width: 200px !important;
+    }
+
+    .myBox {
+        width: 210px;
+    }
+
+    .wPos {
+        position: absolute;
+        top: 8.8626rem;
+        right: 0rem;
+    }
+}
+
+/* ------------------------------------------------------------------ */
+
+/* -------link style (border bottom)------------ */
+.myLink {
+    /* ### */
+    font-size: 13.8px !important;
+    font-weight: 600 !important;
+    font-family: Inter, Helvetica, sans-serif !important;
+    color: rgb(153, 161, 183) !important;
+}
+
+.myLink:hover {
+    color: rgb(153, 161, 183) !important;
+    border-bottom: 2px solid #3E97FF;
+}
+
+
+/* -----------------BOX Border--------------------- */
+.my-border-style {
+    border-color: #DBDFE9;
+    border-style: dashed !important;
+}
+
+/* ---------------------Icon Colors------------ */
+.red-icon {
+    color: red !important;
+}
+
+.green-icon {
+    color: #50CD89 !important;
+}
+
+/* ----------------BOX Fonts----------------------- */
+.grayFont {
+    color: #B5B6C7 !important;
+}
+
+/* -----------------Box width---------------------- */
+.width-128 {
+    width: 128px !important;
+}
+
+/* ----------------Progrees bar color--------------- */
+.green-bar {
+    background-color: rgb(80, 205, 137) !important;
+}
+
+.progress-hw {
+    height: 10px !important;
+    width: 250px !important;
+}
+
+/* -------------button style------------------- */
+.my-light-btn{
+    background-color: rgb(249,249,249) !important;
+    color: rgb(161,130,157) !important;
+    border: inherit !important;
+}
+.my-light-btn:hover{
+    background-color: #F1F1F2 !important;
+    
+}
+.my-blue-btn{
+    background-color: rgb(62,151,255) !important;
+    color: white !important;
+    border: inherit !important;
+}
+.my-blue-btn:hover{
+    color: rgb(0,149,232) !important;
+    color: rgb(239,255,254) !important;
+
+    
+}
